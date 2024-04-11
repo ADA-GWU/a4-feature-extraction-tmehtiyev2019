@@ -1,15 +1,13 @@
-# Feature Extraction
+# Edge Analysis and Active Contour
 
 ## Overview
-This repository contains a Jupyter notebook `feature_extraction.ipynb` for digital image pre-processing, specifically designed for:
+This repository contains Jupyter notebooks for digital image processing with a focus on:
 
-1. Remove the pepper noise from chemical pictures;
-2. Remove speckle noise from medical pictures;
-3. Visualize MRI data in DICOM files.
+1. Edge analysis, including edge detection, corner detection, and line and circle detection.
+2. Active Contour (snakes) algorithm for detecting the contours of objects.
+3. Interest Point detection using ORB to locate the same object in different images.
 
-
-The `digital-image-pre-processing.ipynb` file is self-contained and contains all the necessary interpretations and visual representations to understand the data processing steps and outcomes. To reproduce the results of this work, please follow the below steps carefully.
-
+The notebooks are designed to be self-contained, with all necessary interpretations and visual representations included. To reproduce the results, please follow the steps outlined below.
 
 ## Prerequisites
 - Google Colab account
@@ -18,7 +16,7 @@ The `digital-image-pre-processing.ipynb` file is self-contained and contains all
 ## Installation
 
 1. **Clone the Repository:**
-   Clone this repository to your local machine using `git clone https://github.com/ADA-GWU/a3-digital-image-processing-tmehtiyev2019.git`.
+   Clone this repository to your local machine using `git clone https://github.com/ADA-GWU/a4-feature-extraction-tmehtiyev2019.git`.
    
 2. **Upload to Google Drive:**
    Upload the cloned repository folder to your Google Drive in the directory `/content/drive/My Drive/`.
@@ -26,13 +24,11 @@ The `digital-image-pre-processing.ipynb` file is self-contained and contains all
 ## Usage
 
 1. **Open the Notebook:**
-   Navigate to Google Colab and open the `digital-image-pre-processing.ipynb` file from the folder you uploaded to Google Drive.
+   Navigate to Google Colab and open the `feature_extraction.ipynb` file from the folder you uploaded to Google Drive.
 
 2. **Run the Notebook:**
    Execute the cells in the notebook. The first cell will mount your Google Drive, and you'll need to authorize access to the folder where the repository is located.
 
-3. **Verify Output:**
-   Check the output directories in your Google Drive to view the processed MRI images and metadata.
    
 
 
