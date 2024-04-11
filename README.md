@@ -8,7 +8,7 @@ This repository contains Jupyter notebooks and Python files for feature extracti
 3. **Interest Points (`interest_points.ipynb`):** Interest Point detection using ORB to locate the same object in different images.
 
 
-## Installation 
+## Running Files
 
 ### To run   `edge_analysis.ipynb` file:
 
