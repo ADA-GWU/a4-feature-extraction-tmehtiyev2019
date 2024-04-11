@@ -1,4 +1,4 @@
-# Edge Analysis and Active Contour
+# Feature Extraction
 
 ## Overview
 This repository contains Jupyter notebooks and Python files for feature extraction with a focus on:
