@@ -24,12 +24,6 @@ Navigate to the cloned repository:
  cd a4-feature-extraction-tmehtiyev2019
 ```
 
-### To run   `edge_analysis.ipynb` file:
-
-In the Jupyter Notebook interface, navigate to `edge_analysis.ipynb` , open it and run it.
-
-
-
 ### To run   `active_contour.py` file:
 
 **Install Dependencies:**
@@ -46,9 +40,11 @@ Execute the `active_contour.py` script:
 python active_contour.py
 ```
 
+### To run   `edge_analysis.ipynb` file:
+
+In the Jupyter Notebook interface, navigate to `edge_analysis.ipynb` , open it and run it.
 
 ### To run   `interest_points.ipynb` file:
-
 
 In the Jupyter Notebook interface, navigate to `interest_points.ipynb`, open it and run it.
 
